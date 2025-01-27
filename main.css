@@ -1,0 +1,369 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    width: 100%;
+  
+}
+
+#input{
+    position: absolute;
+    margin-left: 800px;
+    height: 30px;
+    width: 380px;
+}
+.navbar-brand{
+    height: 70px;
+}
+#img{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+.nav-item{
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+    /* position: absolute; */
+    margin-left: 30px;
+}
+#button {
+    position: absolute;
+    margin-left:1200px;
+   height: 40px;
+   width: 100px;
+   border: 1px solid black;
+   border-radius: 6px;
+  
+ 
+  }
+  #button1{
+    position: absolute;
+    margin-left:1320px;
+   height: 40px;
+   width: 100px;
+   border: 1px solid black;
+   background-color: #8230c6;
+   border-radius: 6px;
+   color:black;
+   cursor: pointer;
+  
+  }
+  #demo1 img{
+    display: flex;
+    flex: 1;
+    flex-direction:row;
+  }
+  #sol{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 250px;
+  
+  }
+  #ker{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 500px;
+  }
+#ol{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 750px; 
+}
+#ghost{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 1000px;
+}
+#gadar{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 1240px;
+}
+#movies{
+    justify-content: space-evenly;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 280px;
+    max-height: 330px;
+    background-color: var(black);
+    border-radius: 10px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),
+      -4px -4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
+      -4px -4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card-image-container {
+    width: 100%;
+    height: 64%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-icon {
+    font-size: 40px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 17px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color:black;
+    cursor: default;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+  }
+  
+  .card-des {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    margin: 0;
+    font-size: 13px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #8230c6;
+    cursor: default;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 280px;
+    max-height: 330px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),
+      -4px -4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
+      -4px -4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card-image-container {
+    width: 100%;
+    height: 64%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-icon {
+    font-size: 40px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 17px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #1797b8;
+    cursor: default;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+  }
+  
+  .card-des {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    margin: 0;
+    font-size: 13px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #1797b8;
+    cursor: default;
+  }
+  #s2{
+    position: absolute;
+    margin-top: -235px;
+    margin-left: 250px;
+  }
+  #s3{
+    position: absolute;
+    margin-top: -235px;
+    margin-left: 500px;
+  }
+  #s4{
+   
+    position: absolute;
+    margin-top: -235px;
+    margin-left: 750px;
+  
+  }
+  #s5{
+    position: absolute;
+    margin-top: -235px;
+    margin-left: 1000px;
+  
+  }
+  .card{
+    justify-content: space-between;
+  }
+  #s6{
+    position: absolute;
+    margin-top: -235px;
+    margin-left: 1250px;
+  
+  }
+  #footer{
+    border: 2px solid;
+    height: 750px;
+    width: 100%;
+    background-color:black;
+  }
+  #footer div{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 80%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    /* margin: auto; */
+  }
+  #app{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
+  }
+  #ps{
+    position: absolute;
+    margin-left: 30px;
+  }
+  #as{
+    position: absolute;
+    margin-left: 170px;
+  }
+  #cwu{
+    color:white;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -30px;
+    font-weight: 600;
+  }
+  #icons{
+    color: white;
+    font-size: 20px;
+    margin-left: 930px;
+    margin-top: -30px;
+    justify-content: space-between;
+  }
+  #ca{
+    color: hsla(0, 0%, 100%, .7);
+    cursor: pointer;
+    font-family: NotoSansRegular, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    position: absolute;
+    margin-top: 40px;
+  }
+  #one{
+    /* color: white; */
+    color: rgb(92, 89, 89);
+    position: absolute;
+    margin-top: 100px;
+    line-height: 30px;
+  }
+  #one1{
+    color: white;
+  }
+  #two{
+    /* color: white; */
+    color: rgb(92, 89, 89);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 250px;
+    line-height: 30px;
+  }
+  #t2{
+    color: white;
+  }
+  #t3{
+    color: white;
+  }
+  #f4{
+    color: white;
+  }
+  #f5{
+    color: white;
+  }
+  #three{
+    /* color: white;
+     */
+     color: rgb(92, 89, 89);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+    line-height: 30px;
+  }
+  #four
+  {
+    color: rgb(92, 89, 89);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 750px;
+    line-height: 30px;
+  }
+  #five{
+    /* color: white; */
+    color: rgb(92, 89, 89);
+    position: absolute;
+    margin-top: 100px;
+    margin-left:1000px;
+    line-height: 30px;
+  }
+  #copyright{
+    color: rgb(92, 89, 89);
+    position: absolute;
+    margin-top: 530px;
+  }
